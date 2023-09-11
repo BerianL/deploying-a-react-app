@@ -14,7 +14,7 @@ import Featured from "./components/Featured";
 function App() {
   return (
     <div className="container">
-      <BrowserRouter>
+      <BrowserRouter basename="/deploying-a-react-app">
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
